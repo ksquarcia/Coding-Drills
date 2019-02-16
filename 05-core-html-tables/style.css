@@ -1,0 +1,17 @@
+table, th, td {
+    border: 1px solid black;
+    text-align: left;
+    height: 50px;
+    padding: 15px;
+  }
+
+  thead{
+      background-color: black;
+      color: white;
+  }
+
+  #subtitle{
+      background-color: gray;
+      color:white;
+  }
+
