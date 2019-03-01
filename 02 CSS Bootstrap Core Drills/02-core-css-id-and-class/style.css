@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(233, 56, 25);
+  position: relative;
+}
+
+.box-1 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+}
+
+.box-2 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: blue; 
+}
+
+.box-3 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  transform: translateY(-100%);  
+}
+
+.box-4 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: olivedrab;
+  transform: translateY(-100%);
+}
+
